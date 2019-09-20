@@ -1,0 +1,36 @@
+"""Intro to Python - Part 1 - Hands-On Exercise."""
+
+import math
+import random
+
+pi = math.pi
+
+print('pi is a {} with a value of {}'.format(type(pi), pi))
+
+i = 50
+
+if i < 50:
+    print("i is less than 50")
+elif i == 50:
+    print('i is equal to 50')
+else:
+    print("i is greater than 50")
+
+picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
+
+if picked_fruit == 'orange':
+    print("The fruit is orange")
+elif picked_fruit == 'strawberry':
+    print("The picked fruit is red")
+elif picked_fruit == 'banana':
+    print("The picked fruit is yellow")
+
+
+def multiply(num1, num2):
+    """Multiply two numbers and return the result."""
+    result = num1 * num2
+    return result
+
+print("12 x 96 =", multiply(12, 96))
+print("11 x 123 =", multiply(11, 123))
+print("8 x 64 =", multiply(8, 64))
