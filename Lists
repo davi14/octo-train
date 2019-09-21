@@ -1,0 +1,18 @@
+#Lists
+Football_Teams = ['Charlton', 'Millwall', 'Fulham']
+print(Football_Teams)
+print(Football_Teams[1])
+Football_Teams[1] = 'Crystal Palace'
+print(Football_Teams)
+Football_Teams.append('Brentford')
+print(Football_Teams)
+
+#Tuple
+Leagues = ('Prem', 'Championship', 'League 1')
+print(Leagues[1])
+
+#Dictionaries
+Stats = {"Goals":3, "Assists":7, "Apps":15}
+print(Stats["Goals"])
+Stats["Assists"] = 10
+print(Stats["Assists"])
